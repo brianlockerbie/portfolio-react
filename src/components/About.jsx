@@ -19,7 +19,7 @@ const About = () => {
                   <div>
                     <p>I am passionate about building & desgining excellent software that improves
                     the lives of those around me. I specialize in front end development.
-                    I love creating functional beautiful applicationsn that are one of kind.</p>
+                    I love creating functional beautiful applications that are one of kind.</p>
                   </div>
                 </div>
             </div>
