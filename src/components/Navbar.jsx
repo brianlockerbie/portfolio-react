@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#333333] text-[#f2f2f2]'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-[#f2f2f2]'>
         <div>
           <img src={Logo} alt="Logo Image" style={{ width: '50px' }} />
         </div>
@@ -50,7 +50,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu */}
-          <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#333333] flex flex-col justify-center items-center'}>
+          <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#000000] flex flex-col justify-center items-center'}>
             <li className='py-6 text-4xl'>
               <Link onClick={handleClick} to='home' smooth={true} duration={500}>
                 Home
@@ -93,7 +93,7 @@ const Navbar = () => {
                   Linkedin <FaLinkedin size={30} />
                 </a>
               </li>
-              <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+              <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#000000]'>
                 <a 
                 className='flex justify-between items-center w-full text-[#f2f2f2]'
                 href='https://github.com/brianlockerbie'>
