@@ -14,6 +14,9 @@ This is a portfolio of some of my work I created while attending U of T SCS Codi
 ## Installation
 First clone the repository from GitHub. Run npm install. Edit/change the values in work & social media links. Run npm start to start the application live on your local server port. (http://localhost:3000).
 
+## Usage
+Live link https://brianlockerbie.github.io/portfolio-react/
+
 ## User Story
 AS AN employer looking for candidates with experience building single-page applications
 I WANT to view a potential employee's deployed React portfolio of work samples
