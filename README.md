@@ -47,3 +47,6 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
 ## Screenshots
+<img src="assets/portfolio-screenshot.png">
+<img src="assets/portfolio-screenshot1.png">
+<img src="assets/portfolio-screenshot2.png">
