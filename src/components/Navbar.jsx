@@ -84,32 +84,32 @@ const Navbar = () => {
 
 
           {/* Social Media Icons */}
-          <div className='0hidden lg:flex fixed flex-col top-[35%] left-0'>
+          <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
               <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                 <a 
                 className='flex justify-between items-center w-full text-[#f2f2f2]'
-                href="/">
+                href='https://www.linkedin.com/in/brian-lockerbie'>
                   Linkedin <FaLinkedin size={30} />
                 </a>
               </li>
               <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                 <a 
                 className='flex justify-between items-center w-full text-[#f2f2f2]'
-                href="/">
+                href='https://github.com/brianlockerbie'>
                   Github <FaGithub size={30} />
                 </a>
               </li>
               <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                 <a 
                 className='flex justify-between items-center w-full text-[#f2f2f2]'
-                href="/">
+                href='mailto:brian.lockerbie@gmail.com'>
                   Email <HiOutlineMail size={30} />
                 </a>
               </li>
               <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                 <a className='flex justify-between items-center w-full text-[#f2f2f2]'
-                href="/">
+                href='https://docs.google.com/document/d/1oY4xOln9TC0zDnZM8r_E57NL93j-TTfbXyWPi-6amCY/edit?usp=sharing'>
                   Resume <BsFillPersonLinesFill size={30} />
                 </a>
               </li>
