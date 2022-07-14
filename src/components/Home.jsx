@@ -13,7 +13,12 @@ export const Home = () => {
           <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a front-end developer specializing in building and designing exceptional digital experiences. 
           I excell in languages like HTML, CSS & JavaScript. I excell in my favorite framework React.</p>
           <div>
-            <button>View Work <HiArrowNarrowRight /></button>
+            <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-purple-600 hover:border-purple-600'>
+              View Work 
+              <span className='group-hover:rotate-90 duration-300'>
+                <HiArrowNarrowRight className='ml-3' />
+              </span>
+            </button>
           </div>
         </div>
 
